@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: cornflowerblue;
+    height: 5%;
+    display: flex;
+     padding: 10px;
+    gap: 10px;
+}
+
+.carrier {
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 5px;
+gap: 10px;
+font-family: arial;
+font-size: smaller;
+cursor: pointer;
+}
+
+#anu {
+background-image: url(./gallery.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 250vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+ text-align: center;
+ 
+
+}
+
+#anu .info {
+    flex-direction: column;
+    padding: 20px 4%;
+    gap: 6px;
+}
+#anu .info button {
+   
+    border:1px dotted firebrick;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(5, 5, 78);
+    color: whitesmoke;
+    padding: 20px 10px ;
+
+}
+
+#about {
+    display: flex;
+}
+
+#about .details {
+    padding: 30px 6%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about .details h1 {
+margin-bottom: 10px;
+background-color: none;
+}
+#about .details p {
+    margin-bottom: 5px;
+}
+#about figure img {
+    width: 120%;
+    padding: 50px 100px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+#services .item {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+   
+}
+#services .item img {
+    width: 160px;
+    
+}
+#services .item :nth-of-type(even) {
+    background-color: rgb(2, 34, 92);
+    border-radius: 20px;
+    color: cornsilk;
+   
+}
+ /* #services .item :nth-of-type(odd) {
+     background-color: rgb(2, 34, 92);
+     border-radius: 20px;
+     color: ghostwhite;
+ } */
